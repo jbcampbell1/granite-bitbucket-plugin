@@ -1,0 +1,25 @@
+<repository lastmodified='20250828124425.895'>
+  <resource id='com.granite.pr-plugin.granite-pr-plugin/1.0.0.SNAPSHOT' symbolicname='com.granite.pr-plugin.granite-pr-plugin' presentationname='granite-pr-plugin' uri='granite-pr-plugin-1.0.0-SNAPSHOT.jar' version='1.0.0.SNAPSHOT'>
+    <description>This is the com.granite.pr-plugin:granite-pr-plugin plugin for Atlassian Bitbucket Server.</description>
+    <size>463480</size>
+    <documentation>http://www.example.com/</documentation>
+    <capability name='bundle'>
+      <p n='symbolicname' v='com.granite.pr-plugin.granite-pr-plugin'/>
+      <p n='presentationname' v='granite-pr-plugin'/>
+      <p n='version' t='version' v='1.0.0.SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='GranitePrPlugin.api'/>
+      <p n='version' t='version' v='1.0.0'/>
+      <p n='uses:' v='javax.servlet,javax.servlet.http'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=GranitePrPlugin.api))' extend='false' multiple='false' optional='false'>Import package GranitePrPlugin.api</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.plugin.spring.scanner.annotation.export))' extend='false' multiple='false' optional='false'>Import package com.atlassian.plugin.spring.scanner.annotation.export</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.plugin.spring.scanner.annotation.imports))' extend='false' multiple='false' optional='false'>Import package com.atlassian.plugin.spring.scanner.annotation.imports</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.sal.api))' extend='false' multiple='false' optional='false'>Import package com.atlassian.sal.api</require>
+    <require name='package' filter='(&amp;(package=javax.inject))' extend='false' multiple='false' optional='false'>Import package javax.inject</require>
+    <require name='package' filter='(&amp;(package=javax.servlet))' extend='false' multiple='false' optional='false'>Import package javax.servlet</require>
+    <require name='package' filter='(&amp;(package=javax.servlet.http))' extend='false' multiple='false' optional='false'>Import package javax.servlet.http</require>
+  </resource>
+</repository>
