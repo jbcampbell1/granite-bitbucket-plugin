@@ -1,17 +1,17 @@
-<repository lastmodified='20250828124425.895'>
-  <resource id='com.granite.pr-plugin.granite-pr-plugin/1.0.0.SNAPSHOT' symbolicname='com.granite.pr-plugin.granite-pr-plugin' presentationname='granite-pr-plugin' uri='granite-pr-plugin-1.0.0-SNAPSHOT.jar' version='1.0.0.SNAPSHOT'>
+<repository lastmodified='20251016022755.346'>
+  <resource id='com.granite.pr-plugin.granite-pr-plugin/1.00.96.SNAPSHOT' symbolicname='com.granite.pr-plugin.granite-pr-plugin' presentationname='granite-pr-plugin' uri='granite-pr-plugin-1.00.96-SNAPSHOT.jar' version='1.0.96.SNAPSHOT'>
     <description>This is the com.granite.pr-plugin:granite-pr-plugin plugin for Atlassian Bitbucket Server.</description>
-    <size>463480</size>
+    <size>779616</size>
     <documentation>http://www.example.com/</documentation>
     <capability name='bundle'>
       <p n='symbolicname' v='com.granite.pr-plugin.granite-pr-plugin'/>
       <p n='presentationname' v='granite-pr-plugin'/>
-      <p n='version' t='version' v='1.0.0.SNAPSHOT'/>
+      <p n='version' t='version' v='1.00.96.SNAPSHOT'/>
       <p n='manifestversion' v='2'/>
     </capability>
     <capability name='package'>
       <p n='package' v='GranitePrPlugin.api'/>
-      <p n='version' t='version' v='1.0.0'/>
+      <p n='version' t='version' v='1.0.96'/>
       <p n='uses:' v='javax.servlet,javax.servlet.http'/>
     </capability>
     <require name='package' filter='(&amp;(package=GranitePrPlugin.api))' extend='false' multiple='false' optional='false'>Import package GranitePrPlugin.api</require>
@@ -21,5 +21,6 @@
     <require name='package' filter='(&amp;(package=javax.inject))' extend='false' multiple='false' optional='false'>Import package javax.inject</require>
     <require name='package' filter='(&amp;(package=javax.servlet))' extend='false' multiple='false' optional='false'>Import package javax.servlet</require>
     <require name='package' filter='(&amp;(package=javax.servlet.http))' extend='false' multiple='false' optional='false'>Import package javax.servlet.http</require>
+    <require name='package' filter='(&amp;(package=org.slf4j))' extend='false' multiple='false' optional='false'>Import package org.slf4j</require>
   </resource>
 </repository>

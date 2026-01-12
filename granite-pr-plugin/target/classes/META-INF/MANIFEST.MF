@@ -1,8 +1,8 @@
 Manifest-Version: 1.0
-Atlassian-Build-Date: 2025-08-28T12:44:24+0100
+Atlassian-Build-Date: 2025-10-16T14:27:53+0100
 Atlassian-Plugin-Key: com.granite.pr-plugin.granite-pr-plugin
-Bnd-LastModified: 1756381465501
-Build-Jdk-Spec: 11
+Bnd-LastModified: 1760621274843
+Build-Jdk-Spec: 25
 Bundle-Description: This is the com.granite.pr-plugin:granite-pr-plugin 
  plugin for Atlassian Bitbucket Server.
 Bundle-DocURL: http://www.example.com/
@@ -10,12 +10,13 @@ Bundle-ManifestVersion: 2
 Bundle-Name: granite-pr-plugin
 Bundle-SymbolicName: com.granite.pr-plugin.granite-pr-plugin
 Bundle-Vendor: Example Company
-Bundle-Version: 1.0.0.SNAPSHOT
+Bundle-Version: 1.00.96.SNAPSHOT
 Created-By: Apache Maven Bundle Plugin 5.1.9
 Export-Package: GranitePrPlugin.api;uses:="javax.servlet,javax.servlet.h
- ttp";version="1.0.0"
+ ttp";version="1.0.96"
 Import-Package: GranitePrPlugin.api,com.atlassian.plugin.spring.scanner.
  annotation.export,com.atlassian.plugin.spring.scanner.annotation.import
- s,com.atlassian.sal.api,javax.inject,javax.servlet,javax.servlet.http
+ s,com.atlassian.sal.api,javax.inject,javax.servlet,javax.servlet.http,o
+ rg.slf4j
 Spring-Context: *
 Tool: Bnd-6.3.1.202206071316

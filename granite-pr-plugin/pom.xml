@@ -4,7 +4,7 @@
 
     <groupId>com.granite.pr-plugin</groupId>
     <artifactId>granite-pr-plugin</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.00.96-SNAPSHOT</version>
     <packaging>atlassian-plugin</packaging>
 
     <name>granite-pr-plugin</name>

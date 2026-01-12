@@ -1,3 +1,4 @@
 GranitePrPlugin/impl/MyPluginComponentImpl.class
+GranitePrPlugin/api/GraniteRetryProxyServlet.class
 GranitePrPlugin/api/HelloWorldServlet.class
 GranitePrPlugin/api/MyPluginComponent.class

@@ -1,22 +1,47 @@
+# Build output
+target/
+*.obr
+
+# Compiled JavaScript/TypeScript from build process
+src/main/resources/static/js/main*.js
+src/main/resources/static/js/main*.js.map
+src/main/resources/static/js/main*.js.LICENSE.txt
+src/main/resources/static/review/review.js
+src/main/resources/static/review/review.js.map
+src/main/resources/static/review/review.css
+src/main/resources/static/review/review.css.map
+src/main/resources/static/css/main*.css
+src/main/resources/static/css/main*.css.map
+
+# Node.js dependencies (if you have them at root level)
+node_modules/
+src/node_modules/
+
+# IDE files
 .vscode/
+.idea/
+*.iml
 
-src/frontend/node_modules/
-src/frontend/.pnp
-src/frontend/.pnp.js
+# OS files
+.DS_Store
+Thumbs.db
 
-# testing
-src/frontend//coverage
+# Maven specific
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
 
-# production
-src/frontend//build
-
-# misc
-src/frontend/.DS_Store
-src/frontend/.env.local
-src/frontend/.env.development.local
-src/frontend/.env.test.local
-src/frontend/.env.production.local
-
-src/frontend/npm-debug.log*
-src/frontend/yarn-debug.log*
-src/frontend/yarn-error.log*
+# Package files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
